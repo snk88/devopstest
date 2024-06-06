@@ -39,4 +39,4 @@ steps:
     azureSubscription: 'Azure subscription(c23b7c14-d030-43be-a09b-34ccb5ea527a)'
     appType: 'webApp'
     WebAppName: 'testwebapp20240604154435'
-    packageForLinux: '$(Sbuild.artifactStagingDirectory)/**/*.zip'
+    packageForLinux: '$(build.artifactStagingDirectory)/**/*.zip'
